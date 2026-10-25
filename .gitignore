@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Buildozer
+.buildozer/
+bin/
+
+# Backups / reports / receipts (generated at runtime)
+backups/
+reports/
+receipts/
+
+# Databases (except the seed one in assets/)
+*.db
+!assets/loading_system.db
+
+# Windows junk
+*.bat
